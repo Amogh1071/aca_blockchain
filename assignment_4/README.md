@@ -5,7 +5,7 @@ This assignment outputs all the details of the transaction given the binary `.da
 The data below is converted to a binary file, the code for which is present in assignment 3.
 
 ```
-PS C:\Users\arnav\Desktop\duplicate\assignment_3> node assig_3_final.js
+PS C:\Users\amogh\Desktop\duplicate\assignment_3> node assig_3_final.js
 Enter the number of inputs : 2
 Input  1 :       
 Transaction ID : e312
@@ -23,17 +23,17 @@ Enter the number of outputs : 1
 Output  1 :
 Number of coins : 6755423
 Length of public key : 278
-Public key path : C:\Users\arnav\Desktop\duplicate\assignment_2\Keys\public.pem
+Public key path : C:\Users\amogh\Desktop\duplicate\assignment_2\Keys\public.pem
 Data written to :  30c3cd3caffeddba392bf96ba71d02d8e16f531093e2f8380672d2aff84596f1.dat
 ```
 
 The data has been written. Now we verify the process by performing the reverse operation. The code for this process is present in assignment 4.
 
 ```
-PS C:\Users\arnav\Desktop\duplicate\assignment_3> cd.. 
-PS C:\Users\arnav\Desktop\duplicate> cd assignment_4
-PS C:\Users\arnav\Desktop\duplicate\assignment_4> node assig4.js
-Binary data file path : C:\Users\arnav\Desktop\duplicate\assignment_3\30c3cd3caffeddba392bf96ba71d02d8e16f531093e2f8380672d2aff84596f1.dat
+PS C:\Users\amogh\Desktop\duplicate\assignment_3> cd.. 
+PS C:\Users\amogh\Desktop\duplicate> cd assignment_4
+PS C:\Users\amogh\Desktop\duplicate\assignment_4> node assig4.js
+Binary data file path : C:\Users\amogh\Desktop\duplicate\assignment_3\30c3cd3caffeddba392bf96ba71d02d8e16f531093e2f8380672d2aff84596f1.dat
 Transaction ID :  30c3cd3caffeddba392bf96ba71d02d8e16f531093e2f8380672d2aff84596f1
 Timestamp :  1624946047128595600n
 Number of inputs :  2
